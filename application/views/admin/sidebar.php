@@ -25,6 +25,24 @@
           <i class="fas fa-fw fa-table"></i>
           <span>Data Kategori</span></a>
 </li>
+<li class="nav-item">
+                            <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
+                                <i class="fa fa-fw fa book"></i>
+                                <span>Data Anggota</span></a>
+                        </li>
+                        <hr class="sidebar-divider">
+<div class="sidebar-heading">Transaksi</div>
+<li class="nav-item">
+        <a class="nav-link" href="<?=base_url('pinjam');?>">
+          <i class="fas fa-fw fa-shopping-cart"></i>
+          <span>Data Peminjaman</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="<?=base_url('pinjam/DaftarBooking');?>">
+          <i class="fas fa-fw fa-list"></i>
+          <span>Data Booking</span></a>
+</li>
+
 
 <hr class="sidebar-divider mt-3">
 <!-- Sidebar Toggler (Sidebar) -->
